@@ -225,6 +225,26 @@ Optional parameters
    save_dir: str, the output directory
 ```
 
+```
+from MyQR import myqr
+import os
+
+words = 'hello world!' 
+
+pic = 'lp.jpg'
+
+version, level, qr_name = myqr.run(
+	words,
+    version=1,
+    level='H',
+    picture=pic,
+    colorized=True,
+    contrast=1.0,
+    brightness=1.0,
+    save_name=None,
+    save_dir=os.getcwd()
+	)
+```
 
 
 
