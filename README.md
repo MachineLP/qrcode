@@ -225,7 +225,7 @@ Optional parameters
    save_dir: str, the output directory
 ```
 
-```
+```python
 from MyQR import myqr
 import os
 
